@@ -21,19 +21,20 @@ body {
 
 .meuNomecompleto {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 }
 
 #foto {
     position: absolute;
-    padding-left: 100px;
+    background-color: green;
+    padding:100px 90px 90px 90px;
     width: 30%;
     z-index: 1;
 }
 
 #description{
     position: absolute;
-    top: 400px;
+    top: 550px;
     left: 850px;
     width: 50%;
     z-index: 2;
@@ -44,48 +45,52 @@ body {
     display: inline-block;
 }
 
-.criatividade {
-    font-size: 16px;
-}
-
-.proatividade {
-    font-size: 15px;
-}
-
-.empatia {
-    font-size: 20px;
-    text-decoration: underline;
-}
-
 .habilitys {
     position: absolute;
+    font-size: 1.5em;
     z-index: 3;
-    top: 900px;
+    top: 1050px;
 }
 
 .listOfHabilitys {
     position: absolute;
     z-index: 4;
-    top: 950px;
+    top: 1130px;
+}
+
+.criatividade {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.proatividade {
+    font-size: 20px;
 }
 
 .organizacao {
-    font-size: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.empatia {
+    font-size: 20px;
 }
 
 .conhecimento {
-    font-size: 17px;
+    font-size: 20px;
+    text-decoration: overline;
 }
 
 .mypicture {
     position: absolute;
     z-index: 5;
-    top: 1200px;
-    text-align: left;
+    top: 1300px;
+    text-align: center
 }
 
 .linkTrueCrime {
     position: absolute;
     z-index: 6;
-    top: 1300px;
+    top: 1400px;
+    text-align: center;
 }
