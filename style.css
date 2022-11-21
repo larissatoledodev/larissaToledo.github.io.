@@ -1,0 +1,44 @@
+h1 {
+    color: white;
+    font-family: monospace;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: beige;
+}
+
+em {
+    color: rgb(230, 95, 117);
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-size: 20px;
+}
+
+.meuNomecompleto {
+    text-align: center;
+}
+
+.criatividade {
+    font-size: 16px;
+}
+
+.proatividade {
+    font-size: 15px;
+}
+
+.empatia {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.organizacao {
+    font-size: 15px;
+}
+
+.conhecimento {
+    font-size: 17px;
+}
