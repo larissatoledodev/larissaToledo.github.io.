@@ -18,8 +18,30 @@ body {
     font-size: 20px;
 }
 
+
 .meuNomecompleto {
     text-align: center;
+    padding-bottom: 60px;
+}
+
+#foto {
+    position: absolute;
+    padding-left: 100px;
+    width: 30%;
+    z-index: 1;
+}
+
+#description{
+    position: absolute;
+    top: 400px;
+    left: 850px;
+    width: 50%;
+    z-index: 2;
+}
+
+.pictureText {
+    width: 50%;
+    display: inline-block;
 }
 
 .criatividade {
@@ -35,10 +57,35 @@ body {
     text-decoration: underline;
 }
 
+.habilitys {
+    position: absolute;
+    z-index: 3;
+    top: 900px;
+}
+
+.listOfHabilitys {
+    position: absolute;
+    z-index: 4;
+    top: 950px;
+}
+
 .organizacao {
     font-size: 15px;
 }
 
 .conhecimento {
     font-size: 17px;
+}
+
+.mypicture {
+    position: absolute;
+    z-index: 5;
+    top: 1200px;
+    text-align: left;
+}
+
+.linkTrueCrime {
+    position: absolute;
+    z-index: 6;
+    top: 1300px;
 }
