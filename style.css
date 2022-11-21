@@ -1,0 +1,97 @@
+h1 {
+    color: rgb(63, 58, 58);
+    font-family: monospace;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: beige;
+}
+
+em {
+    color: rgb(119, 88, 202);
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-size: 20px;
+}
+
+
+.meuNomecompleto {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+#foto {
+    position: absolute;
+    background-color: lightslategray;
+    padding:100px 90px 90px 90px;
+    width: 30%;
+    z-index: 1;
+}
+
+#description{
+    position: absolute;
+    top: 550px;
+    left: 850px;
+    width: 50%;
+    z-index: 2;
+    color: black;
+}
+
+.pictureText {
+    width: 50%;
+    display: inline-block;
+}
+
+.habilitys {
+    position: absolute;
+    font-size: 1.5em;
+    z-index: 3;
+    top: 1050px;
+}
+
+.listOfHabilitys {
+    position: absolute;
+    z-index: 4;
+    top: 1130px;
+}
+
+.criatividade {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.proatividade {
+    font-size: 20px;
+}
+
+.organizacao {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.empatia {
+    font-size: 20px;
+}
+
+.conhecimento {
+    font-size: 20px;
+    text-decoration: overline;
+}
+
+.mypicture {
+    position: absolute;
+    z-index: 5;
+    top: 1300px;
+    text-align: center
+}
+
+.linkTrueCrime {
+    position: absolute;
+    z-index: 6;
+    top: 1400px;
+    text-align: center;
+}
