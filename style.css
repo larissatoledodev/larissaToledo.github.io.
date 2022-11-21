@@ -1,5 +1,5 @@
 h1 {
-    color: white;
+    color: rgb(63, 58, 58);
     font-family: monospace;
 }
 
@@ -10,7 +10,7 @@ p {
 }
 
 em {
-    color: rgb(230, 95, 117);
+    color: rgb(119, 88, 202);
 }
 
 body {
@@ -26,7 +26,7 @@ body {
 
 #foto {
     position: absolute;
-    background-color: green;
+    background-color: lightslategray;
     padding:100px 90px 90px 90px;
     width: 30%;
     z-index: 1;
@@ -38,6 +38,7 @@ body {
     left: 850px;
     width: 50%;
     z-index: 2;
+    color: black;
 }
 
 .pictureText {
